@@ -135,32 +135,44 @@ footer {
     height: 100px;
  }
 .f1:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .f2:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .g1:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .g2:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .g3:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .g4:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 .g5:hover{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+}
+.pagination{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.formulario{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    margin-left: 150%;
 }
 @media screen and (max-width: 432px) {
 
