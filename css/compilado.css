@@ -1,0 +1,109 @@
+#g1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "header header header header" "contenido contenido contenido contenido" "footer footer footer footer"; }
+  #g1 .navegador {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  #g1 .menup {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+  #g1 .menup li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif; }
+  #g1 .menup a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black; }
+  #g1 .sub {
+    position: absolute;
+    background: #ffb4ac;
+    display: none; }
+  #g1 .menup li a:hover {
+    color: black; }
+  #g1 .menup li:hover .sub {
+    display: block; }
+  #g1 .top {
+    background-image: url("https://i.pinimg.com/originals/75/29/fb/7529fb2aefd7445fd4fa827ce1bbe0a7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%; }
+  #g1 .top {
+    grid-area: header; }
+
+.contenido {
+  grid-area: contenido;
+  width: 100%; }
+  .contenido .contenido img {
+    width: 40%;
+    height: 80%;
+    margin-left: 55%;
+    margin-top: 5%;
+    object-fit: cover; }
+
+.fotos img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover; }
+  .fotos img .f1:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .f2:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .g1:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .g2:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .g3:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .g4:hover {
+    height: 350px;
+    width: 350px; }
+  .fotos img .g5:hover {
+    height: 350px;
+    width: 350px; }
+
+.contenido {
+  grid-area: contenido;
+  width: 100%; }
+  .contenido .contenido img {
+    width: 40%;
+    height: 80%;
+    margin-left: 55%;
+    margin-top: 5%;
+    object-fit: cover; }
+  .contenido #foto-inicio {
+    margin-top: 10px; }
+  .contenido .contact {
+    border-top: solid 10px red;
+    border-right: solid 10px red;
+    border-bottom: solid 10px red;
+    border-left: solid 10px red; }
+
+.pagination {
+  text-align: center;
+  justify-content: center;
+  justify-items: center; }
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.5em; }

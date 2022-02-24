@@ -1,0 +1,12 @@
+.contenido {
+    grid-area: contenido;
+    width: 100%;
+    .contenido img  {
+        width: 40%;
+        height: 80%;
+        margin-left: 55%;
+        margin-top: 5%;
+        object-fit: cover;
+    }
+
+}

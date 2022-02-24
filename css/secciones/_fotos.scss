@@ -1,0 +1,53 @@
+.fotos img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    .f1:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .f2:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .g1:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .g2:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .g3:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .g4:hover{
+        height: 350px;
+        width: 350px;
+    }
+    .g5:hover{
+        height: 350px;
+        width: 350px;
+    }
+}
+.contenido {
+    grid-area: contenido;
+    width: 100%;
+    .contenido img  {
+        width: 40%;
+        height: 80%;
+        margin-left: 55%;
+        margin-top: 5%;
+        object-fit: cover;
+    }
+    #foto-inicio{
+        margin-top: 10px;
+    }
+    .contact {
+        border-top: solid 10px red;
+        border-right: solid 10px red;
+        border-bottom: solid 10px red;
+        border-left: solid 10px red;
+    }
+}

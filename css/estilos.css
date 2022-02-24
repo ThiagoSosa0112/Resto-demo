@@ -162,13 +162,7 @@ footer {
     justify-content: center;
     justify-items: center;
 }
-.formulario{
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    margin-left: 150%;
-}
+
 @media screen and (max-width: 432px) {
     footer{
         background-color: burlywood;
