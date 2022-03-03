@@ -3,7 +3,7 @@
   height: 100%;
   display: -ms-grid;
   display: grid;
- 
+  
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "header header header header"
  "contenido contenido contenido contenido"
@@ -11,7 +11,6 @@
 }
 
 #g1 .navegador {
-  
   -ms-grid-column-span: 4;
   grid-area: header;
   width: 100%;
@@ -76,7 +75,7 @@
 }
 
 #g1 .top {
-
+  
   -ms-grid-column-span: 4;
   grid-area: header;
 }
@@ -89,7 +88,7 @@
 }
 
 .contenido {
-  
+ 
   -ms-grid-column-span: 4;
   grid-area: contenido;
   width: 100%;
@@ -147,7 +146,7 @@
 }
 
 .contenido {
-  
+ 
   -ms-grid-column-span: 4;
   grid-area: contenido;
   width: 100%;
@@ -182,14 +181,16 @@
 }
 
 footer {
-  
   -ms-grid-column-span: 4;
   grid-area: footer;
   width: 100%;
   text-align: center;
   font-family: 'Mukta', sans-serif;
   font-size: 1.5em;
+  background-color: #ffb4ac;
 }
+
+
 
 @media screen and (max-width: 432px) {
   footer {
@@ -231,7 +232,7 @@ footer {
     font-size: 0.8em;
   }
   footer {
-    
+  
     -ms-grid-column-span: 4;
     grid-area: footer;
     width: 100%;
