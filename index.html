@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,33 +16,60 @@
     <title>Vivero "El Paraíso"</title>
 </head>
 <body class="principal">
-    <section id="g1">
-    <header class="top">
-        <h1 class="nom">Vivero "El Paraíso"</h1>
-        <nav class="navegador">
-            <ul class="menup"> 
-                <li><a href="vistas/galeria.html">Galería</a></li>
-                <li><a href="vistas/contacto.html">Contacto</a></li>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="vistas/tipsycuidados.html">Tips y cuidados</a></li>
-                <li><a href="vistas/productos.html">Productos</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+  <section id="g1">
+  <header class="top">
+      <h1 class="nom">Vivero "El Paraíso"</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/tipsycuidados.html">Tips y cuidados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./vistas/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./vistas/productos.html">Productos</a>
+              </li>
+           </ul>
+            <form>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header> 
+   </section>
     <div class="contenido">
         <div class="clearfix">
             
            
             <img src="./media/ini.png" id="foto-inicio" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-            <p>
+            <p class="parrafo-inicio">
                 Somos "El Paraíso". Este vivero abre las puertas a todas las personas que estén en busca de alegrar su jardín, regalar algo bonito a sus allegados y a todos aquellos que naturaleza les de felicidad tal como a nosotros nos las da.
               </p>
-            <p>
+            <p class="parrafo-inicio">
               Nos podés encontrar en Avenida 25 de Mayo de 8:00 AM a 18:00 PM, todos los días de la semana. No esperes más, confia en nosotros. No te vas a arrepentir.
             </p>
           </div>
     </div>
+    <section class="ubicacion">
+    <h1 class="ubicacion-txt">Ubicación:</h1>
+    <div class="mapa-vivero">
+      <img src="./media/ubicacion.png"  alt="">
+    </div>
+    </section>
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
@@ -58,5 +85,7 @@
         </li>
       </ul>
     </footer>
+    <script src="./javascript/miarchivo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
